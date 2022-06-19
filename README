@@ -1,0 +1,9 @@
+<h1>Open the app using Xcode</h1>
+
+- On welcome screen, click on "Clone an existing project"
+
+- paste in the repository url from github and click "Clone" 
+
+- go to the folder that you save the app and click on the file Weather.xcodeproj
+
+- choose a stimulation (works good on iPhone 13) and click "run"

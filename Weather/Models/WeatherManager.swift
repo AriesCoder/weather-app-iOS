@@ -38,6 +38,7 @@ struct WeatherManager{
             print(url)
             let session = URLSession(configuration: .default) //create a session object which is like a browser, can perform the networking
             
+            
             //give the session a task
             let task = session.dataTask(with: url, completionHandler: handle(data:response:error:))
             
@@ -76,6 +77,8 @@ struct WeatherManager{
         return nil
         
     }
+    
+    
     
     
 }
